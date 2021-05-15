@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
 
     <!-- ========== SEO ========== -->
-    <title>Hotel Zante - About Us</title>
+    <title>Hotel Zante - Places</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <meta content="" name="author">
@@ -36,6 +36,8 @@
     <!-- ========== GOOGLE FONTS ========== -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7cRaleway:400,500,600,700" rel="stylesheet">
 
+    <link href="css/lightbox.min.css" rel="stylesheet" />
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -49,14 +51,14 @@
     <div id="smoothpage" class="wrapper">
 
         <!-- ========== TOP MENU ========== -->
-        <div class="top_menu">
+        <div class="top_menu hidden-xs">
             <div class="container">
-                <div class="welcome_mssg hidden-xs">
+                <div class="welcome_mssg">
                     Welcome to Hotel Zante
                 </div>
                 <ul class="top_menu_right">
-                    <li><i class="fa fa-phone"></i><a href="tel:18475555555"> 1-888-123-4567 </a></li>
-                    <li class="email hidden-xxs"><i class="fa fa-envelope-o "></i> <a href="mailto:contact@site.com">contact@site.com</a></li>
+                    <li><i class="fa  fa-phone"></i><a href="tel:18475555555"> 1-888-123-4567 </a></li>
+                    <li class="email"><i class="fa  fa-envelope-o "></i> <a href="mailto:contact@site.com">contact@site.com</a></li>
                     <li class="language-switcher">
                         <nav class="dropdown">
                             <a href="#" class="dropdown-toggle select" data-hover="dropdown" data-toggle="dropdown">
@@ -64,16 +66,17 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="#"><i class="famfamfam-flag-gr"></i>Ελληνικά</a></li>
-                                <li><a href="#"><i class="famfamfam-flag-it"></i>Italiano</a></li>
-                                <li><a href="#"><i class="famfamfam-flag-de"></i>Deutsch</a></li>
-                                <li><a href="#"><i class="famfamfam-flag-fr"></i>Français</a></li>
-                                <li><a href="#"><i class="famfamfam-flag-es"></i>Español</a></li>
+                                <li><a href="#"><i class="famfamfam-flag-it "></i>Italiano</a></li>
+                                <li><a href="#"><i class="famfamfam-flag-de "></i>Deutsch</a></li>
+                                <li><a href="#"><i class="famfamfam-flag-fr "></i>Français</a></li>
+                                <li><a href="#"><i class="famfamfam-flag-es "></i>Español</a></li>
                             </ul>
                         </nav>
                     </li>
                 </ul>
             </div>
         </div>
+        
 
         <!-- ========== HEADER ========== -->
         <header class="fixed">
@@ -178,103 +181,124 @@
             </div>
         </header>
 
-        <!-- ========== PAGE TITLE ========== -->
+        <!-- =========== PAGE TITLE ========== -->
         <div class="page_title gradient_overlay" style="background: url(images/page_title_bg.jpg);">
             <div class="container">
                 <div class="inner">
-                    <h1>ABOUT HOTEL ZANTE</h1>
+                    <h1>Discover Greece</h1>
                     <ol class="breadcrumb">
                         <li><a href="index.html">Home</a></li>
-                        <li>ABOUT HOTEL ZANTE</li>
+                        <li>Discover Greece</li>
                     </ol>
                 </div>
             </div>
         </div>
 
-        <!-- ========== MAIN SECTION ========== -->
-        <main id="about_us_page">
+        <!-- =========== MAIN ========== -->
+        
+        
+        <main id="places_page">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7">
-                        <h1 class="mb30">Hotel Zante - Since 1989</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. </p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt. </p>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="about_img">
-                            <img src="images/about.jpg" class="img1 img-responsive" alt="Image">
-                            <img src="images/about.jpg" class="img2 img-responsive" alt="Image">
+                    <div class="gird-container">
+                        <div class="gird-item tall">
+                            <div class="ejercico">
+                                <a href="images/zante/591x832.png" data-lightbox="image-1" data-title="Bodrum Akyarlar">
+                                    <img src="images/zante/285x515.png" alt="" >
+                                </a>
+                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-3 col-sm-3 col-xs-6">
-                                <div class="countup_box">
-                                    <div class="inner">
-                                        <div class="countup number" data-count="150"></div>
-                                        <div class="text">Rooms</div>
-                                    </div>
-                                </div>
+                        <div class="gird-item">
+                            <div class="ejercico">
+                                <a href="images/zante/849x849.png" data-lightbox="image-1" data-title="Bodrum Turgutlar">
+                                    <img src="images/zante/285x250.png" alt="" >
+                                </a>
                             </div>
-                            <div class="col-md-3 col-sm-3 col-xs-6">
-                                <div class="countup_box">
-                                    <div class="inner">
-                                        <div class="countup number" data-count="50"></div>
-                                        <div class="text">staffs</div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="gird-item">
+                            <div class="ejercico">
+                                <a href="images/zante/849x849.png" data-lightbox="image-1" data-title="Bodrum 1">
+                                    <img src="images/zante/285x250.png" alt="" >
+                                </a>
                             </div>
-                            <div class="col-md-3 col-sm-3 col-xs-6">
-                                <div class="countup_box">
-                                    <div class="inner">
-                                        <div class="countup number" data-count="4"></div>
-                                        <div class="text">restaurant</div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="gird-item">
+                            <div class="ejercico">
+                                <a href="images/zante/849x849.png" data-lightbox="image-1" data-title="Bodrum 2">
+                                    <img src="images/zante/285x250.png" alt="" >
+                                </a>
                             </div>
-                            <div class="col-md-3 col-sm-3 col-xs-6">
-                                <div class="countup_box">
-                                    <div class="inner">
-                                        <div class="countup number" data-count="3"></div>
-                                        <div class="text">pools</div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="gird-item wide">
+                            <div class="ejercico">
+                                
+                                <a href="images/zante/1258x792.png" data-lightbox="image-1" data-title="Bodrum 3">
+                                    <img src="images/zante/583x250.png" alt="" >
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gird-item tall">
+                            <div class="ejercico">
+                                <a href="images/zante/591x832.png" data-lightbox="image-1" data-title="Bodrum 4">
+                                    <img src="images/zante/285x515.png" alt="" >
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gird-item wide">
+                            <div class="ejercico">
+                                
+                                <a href="images/zante/1258x792.png" data-lightbox="image-1" data-title="Bodrum 5">
+                                    <img src="images/zante/583x250.png" alt="" >
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gird-item">
+                            <div class="ejercico">
+                                <a href="images/zante/849x849.png" data-lightbox="image-1" data-title="Bodrum 6">
+                                    <img src="images/zante/285x250.png" alt="" >
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gird-item">
+                            <div class="ejercico">
+                                <a href="images/zante/849x849.png" data-lightbox="image-1" data-title="Bodrum 7">
+                                    <img src="images/zante/285x250.png" alt="" >
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gird-item wide">
+                            <div class="ejercico">
+                                
+                                <a href="images/zante/1258x792.png" data-lightbox="image-1" data-title="Bodrum 8">
+                                    <img src="images/zante/583x250.png" alt="" >
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gird-item tall">
+                            <div class="ejercico">
+                                <a href="images/zante/591x832.png" data-lightbox="image-1" data-title="Bodrum 9">
+                                    <img src="images/zante/285x515.png" alt="" >
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gird-item wide">
+                            <div class="ejercico">
+                                
+                                <a href="images/zante/1258x792.png" data-lightbox="image-1" data-title="Bodrum 10">
+                                    <img src="images/zante/583x250.png" alt="" >
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gird-item">
+                            <div class="ejercico">
+                                <a href="images/zante/849x849.png" data-lightbox="image-1" data-title="Bodrum 11">
+                                    <img src="images/zante/285x250.png" alt="" >
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row image-gallery">
-                    <div class="col-md-3 col-sm-6 mt20 mb20 br2">
-                        <a href="images/restaurant.jpg" class="hover_effect h_lightbox h_blue">
-                            <img src="images/restaurant.jpg" class="img-responsive full_width br2" alt="Image">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 mt20 mb20 br2">
-                        <a href="images/spa.jpg" class="hover_effect h_lightbox h_blue">
-                            <img src="images/spa.jpg" class="img-responsive full_width br2" alt="Image">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 mt20 mb20 br2">
-                        <a href="images/conference.jpg" class="hover_effect h_lightbox h_blue">
-                            <img src="images/conference.jpg" class="img-responsive full_width br2" alt="Image">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 mt20 mb20 br2">
-                        <a href="images/swimming.jpg" class="hover_effect h_lightbox h_blue">
-                            <img src="images/swimming.jpg" class="img-responsive full_width br2" alt="Image">
-                        </a>
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. </p>
-                <ul class="list_menu">
-                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</li>
-                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit..</li>
-                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                </ul>
-                <p>per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. </p>
             </div>
-
         </main>
 
         <!-- ========== FOOTER ========== -->
@@ -343,7 +367,6 @@
                 </div>
             </div>
         </footer>
-
     </div>
 
     <!-- ========== BACK TO TOP ========== -->
@@ -351,7 +374,10 @@
         <i class="fa fa-angle-up" aria-hidden="true"></i>
     </div>
 
+
     <!-- ========== JAVASCRIPT ========== -->
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -373,4 +399,5 @@
     <script type="text/javascript" src="js/main.js"></script>
 
 </body>
+
 </html>
