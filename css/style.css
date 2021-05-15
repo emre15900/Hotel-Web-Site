@@ -917,15 +917,17 @@ button {
     padding: 0px 5px;
 }
 
+/* Yellow to White */
+
 .button.btn_blue {
-    background: #1dc1f8;
-    border-color: #1dc1f8;
-    color: #fff;
+    background: transparent;
+    border: 1px solid #cfd7da;
+    color: rgb(161, 177, 193) !important;
 }
 
 .button.btn_yellow {
-    background: #ffb600;
-    border-color: #ffb600;
+    background: transparent;
+    border: 1px solid #fff;
     color: #fff;
 }
 
@@ -951,15 +953,16 @@ button {
 .button.btn_blue:hover,
 .button.btn_blue:active,
 .button.btn_blue:focus {
-    background: #2c88c0;
-    border-color: #2c88c0;
+    background: rgba(163, 163, 163, 0.7) !important;
+    border-color: rgba(163, 163, 163, 0.7) !important;
+    color: #fff !important;
 }
 
 .button.btn_yellow:hover,
 .button.btn_yellow:active,
 .button.btn_yellow:focus {
-    background: #efac14;
-    border-color: #efac14;
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
 }
  
 .button.btn_gold:hover,
@@ -5239,4 +5242,11 @@ figure:hover .room_list_slider .owl-nav .owl-next {
         height: 600px;
         text-align: center;
     }
+}
+
+.scroll #main_menu .navbar-nav .menu_button .button{
+    color: rgb(161, 177, 193) !important;
+}
+.scroll #main_menu .navbar-nav .menu_button .button:hover{
+    color: rgb(161, 177, 193, .7) !important;
 }
