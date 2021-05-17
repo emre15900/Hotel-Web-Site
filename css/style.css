@@ -932,9 +932,9 @@ button {
 }
 
 .button.btn_gold {
-    background: #c7ba88;
-    border-color: #c7ba88;
-    color: #fff;
+    background: transparent;
+    border: 1px solid #cfd7da;
+    color: #fff !important;
 }
 
 .button.btn_dark {
@@ -968,8 +968,8 @@ button {
 .button.btn_gold:hover,
 .button.btn_gold:active,
 .button.btn_gold:focus {
-    background: #bcb081;
-    border-color: #bcb081;
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .button.btn_dark:hover,
@@ -2059,7 +2059,7 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 #main_menu .navbar-nav .menu_button .button {
     margin-top: 22px;
     padding: 8px 16px;
-    color: #fff !important;
+    color: #fff;
 }
 
 #main_menu .navbar-nav .menu_button .button:hover,
@@ -5249,4 +5249,38 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 }
 .scroll #main_menu .navbar-nav .menu_button .button:hover{
     color: rgb(161, 177, 193, .7) !important;
+}
+
+.newsletter{
+    width: 100%;
+    padding: 8px 13px;
+    margin: 3px 0;
+    outline: 0;
+    background-color: transparent;
+    border: none;
+    box-shadow: -2px 2px 2px #ddd, 2px -2px 2px #ddd;
+}
+.newsletter:focus{
+    border: 1px solid #cfd7da;
+    background: #edf1f1;
+    border: 1px solid #cfd7da;
+    color: #fff;
+    transition: all 300ms ease;
+}
+.newsletterButton{
+    width: 50%;
+    padding: 8px 13px;
+    margin: 5px 0;
+    background: transparent;
+    border: 1px solid #cfd7da;
+    color: #a1b1c1;
+    font-weight: 600;
+    cursor: pointer;
+}
+.newsletterButton:hover{
+    background: #cfd7da;
+    border: 1px solid #cfd7da;
+    color: #fff;
+    transition: all 300ms ease;
+    cursor: pointer;
 }
