@@ -218,7 +218,7 @@ ul.list_menu li::before {
 
 /* ---------- 1.3 Typography ---------- */
 a {
-    color: #1dc1f8;
+    color: #000000;
     -webkit-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
@@ -294,7 +294,7 @@ p {
 
 .dropcap:first-letter {
     float: left;
-    color: #1dc1f8;
+    color: #000000;
     font-size: 4em;
     line-height: 1em;
     margin: 0 20px 5px 0;
@@ -303,7 +303,7 @@ p {
 }
 
 .dropcap.yellow:first-letter {
-    color: #ffb600;
+    color: #000000;
 }
 
 .dropcap.dark:first-letter {
@@ -351,7 +351,7 @@ blockquote {
 }
 
 blockquote i {
-    color: #1DC1F8;
+    color: #000000;
     font-size: 32px;
     position: absolute;
     top: 28px;
@@ -578,11 +578,11 @@ blockquote .quote_text {
 }
 
 .hover_effect.h_blue:hover {
-    background: #1dc1f8;
+    background: #000000;
 }
 
 .hover_effect.h_yellow:hover {
-    background: #ffb600;
+    background: #000000;
 }
 
 .hover_effect.h_dark:hover {
@@ -754,8 +754,8 @@ label .label_icon_info {
 .datepicker-dropdown.datepicker .prev:hover,
 .datepicker-dropdown.datepicker .next:hover {
     cursor: pointer;
-    background: #ffb600;
-    border-color: #ffb600;
+    background: #000000;
+    border-color: #000000;
     color: #fff;
 }
 
@@ -781,8 +781,8 @@ label .label_icon_info {
 
 .datepicker-dropdown.datepicker .day:hover {
     cursor: pointer;
-    background: #1dc1f8;
-    border-color: #1dc1f8; 
+    background: #000000;
+    border-color: #000000; 
     color: #fff;
 }
 
@@ -794,7 +794,7 @@ label .label_icon_info {
 }
 
 .datepicker-dropdown.datepicker .day.today {
-    background: #1dc1f8;
+    background: #000000;
     color: #fff;
 }
 
@@ -832,8 +832,8 @@ label .label_icon_info {
 .datepicker-dropdown.datepicker .year:hover,
 .datepicker-dropdown.datepicker .decade:hover,
 .datepicker-dropdown.datepicker .century:hover {
-   background: #1dc1f8;
-   border-color: #1dc1f8;
+   background: #000000;
+   border-color: #000000;
    color: #fff;
    cursor: pointer;
 }
@@ -921,8 +921,8 @@ button {
 
 .button.btn_blue {
     background: transparent;
-    border: 1px solid #cfd7da;
-    color: rgb(161, 177, 193) !important;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0) !important;
 }
 
 .button.btn_yellow {
@@ -953,9 +953,9 @@ button {
 .button.btn_blue:hover,
 .button.btn_blue:active,
 .button.btn_blue:focus {
-    background: rgba(163, 163, 163, 0.7) !important;
-    border-color: rgba(163, 163, 163, 0.7) !important;
-    color: #fff !important;
+    background: rgba(0, 0, 0, 0.8) !important;
+    border-color: rgba(0, 0, 0, 0.8) !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .button.btn_yellow:hover,
@@ -1140,8 +1140,8 @@ button {
 .pagination li.active a,
 .pagination li.next_pagination>a:hover,
 .pagination li.prev_pagination>a:hover {
-    background: #1dc1f8;
-    border-color: #1dc1f8;
+    background: #000000;
+    border-color: #000000;
     color: #FFF;
 }
 
@@ -1166,11 +1166,11 @@ button {
 }
 
 .main_title.mt_blue h2 {
-    color: #1dc1f8;
+    color: #000000;
 }
 
 .main_title.mt_yellow h2 {
-    color: #ffb600;
+    color: #000000;
 }
 
 .main_title.mt_white h2 {
@@ -1204,11 +1204,11 @@ button {
 }
 
 .main_title.mt_wave.mt_blue:after {
-    background: url("../images/icons/wave_blue.svg");
+    background: url("../images/icons/wave_dark.svg");
 }
 
 .main_title.mt_wave.mt_yellow:after {
-    background: url("../images/icons/wave_yellow.svg");
+    background: url("../images/icons/wave_dark.svg");
 }
 
 .main_title.mt_wave.mt_white:after {
@@ -1470,7 +1470,7 @@ button {
 .loading_effect .object {
     width: 20px;
     height: 20px;
-    background-color: #ffb600;
+    background-color: #000000;
     float: left;
     margin-right: 20px;
     margin-top: 65px;
@@ -1548,7 +1548,7 @@ button {
 .loading_effect2 .object {
     width: 18px;
     height: 18px;
-    background: #ffb600;
+    background: #000000;
     float: left;
     margin-top: 15px;
     margin-right: 15px;
@@ -1630,9 +1630,9 @@ button {
 .loading_effect3 .object {
     border-radius: 50% 50% 50% 50%;
     position: absolute;
-    border-top: 5px solid #ffb600;
+    border-top: 5px solid #000000;
     border-bottom: 5px solid transparent;
-    border-left: 5px solid #ffb600;
+    border-left: 5px solid #000000;
     border-right: 5px solid transparent;
     -webkit-animation: loading_effect3 2s infinite;
     animation: loading_effect3 2s infinite;
@@ -1690,7 +1690,7 @@ button {
 #back_to_top {
     height: 55px;
     width: 55px;
-    background: #ffb600;
+    background: #000000;
     border-radius: 3px;
     right: -100px;
     bottom: 15px;
@@ -1709,7 +1709,7 @@ button {
 
 #back_to_top:hover,
 #back_to_top:focus {
-    background: #efac14;
+    background: #000000;
     box-shadow: 0 5px 10px 0 rgba(35, 50, 56, 0.1);
 }
 
@@ -1756,7 +1756,7 @@ button {
 .top_menu.transparent a:hover,
 .top_menu.transparent a:focus,
 .top_menu.transparent .dropdown.open a.select {
-    color: #ffb600;
+    color: #000000;
 }
 
 .top_menu .welcome_mssg {
@@ -2026,7 +2026,7 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 }
 
 #main_menu .navbar-nav li.active a {
-    color: #ffb600;
+    color: #000000;
 }
 
 .transparent #main_menu .navbar-nav li a {
@@ -2038,7 +2038,7 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 }
 
 .transparent.nav_bg #main_menu .navbar-nav li.active a.dropdown-toggle, .transparent #main_menu .navbar-nav li.active a.dropdown-toggle {
-    color: #ffb600;
+    color: #000000;
 }
 
 .scroll #main_menu .navbar-nav li a {
@@ -2053,7 +2053,7 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 #main_menu .navbar-nav .open .dropdown-toggle,
 .transparent.nav_bg #main_menu .navbar-nav li a:hover,
 .transparent.nav_bg #main_menu .navbar-nav .open .dropdown-toggle {
-    color: #ffb600;
+    color: #000000;
 }
 
 #main_menu .navbar-nav .menu_button .button {
@@ -2065,8 +2065,8 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 #main_menu .navbar-nav .menu_button .button:hover,
 #main_menu .navbar-nav .menu_button .button:focus,
 #main_menu .navbar-nav .menu_button .button:active {
-    background: #efac14;
-    border-color: #efac14;
+    background: #000000;
+    border-color: #000000;
     color: #fff !important;
 }
 
@@ -2308,7 +2308,7 @@ section .main_title {
     display: inline-block;
     width: 50px;
     height: 45px;
-    background: #ffb600;
+    background: #000000;
     border-radius: 1px 0 0 1px;
     text-align: center;
     border-radius: 1px 0 0 1px;
@@ -2501,7 +2501,7 @@ section .main_title {
 }
 
 #features .owl-thumb-item .media-left {
-    color: #ffb600;
+    color: #000000;
     font-size: 2em;
     line-height: 2em;
     text-align: center;
@@ -2604,7 +2604,7 @@ section .main_title {
 }
 
 .comments .avatar:hover {
-    border: 1px solid #1dc1f8;
+    border: 1px solid #000000;
 }
 
 .comments .avatar img {
@@ -2643,7 +2643,7 @@ section .main_title {
 }
 
 .comments .author_name a:hover {
-    color: #ffb600;
+    color: #000000;
 }
 
 .comments .comment_info {
@@ -2783,7 +2783,7 @@ section .main_title {
 }
 
 #testimonials .review_content .review_rating i {
-    color: #ffb600;
+    color: #000000;
     margin: 4px 0;
 }
 
@@ -2818,7 +2818,7 @@ section .main_title {
 
 #testimonials #testimonials_slider .owl-dots .owl-dot.active span,
 #testimonials #testimonials_slider .owl-dots .owl-dot:hover span {
-    color: #1dc1f8;
+    color: #000000;
     height: 25px;
 }
 
@@ -2868,7 +2868,7 @@ section .main_title {
 
 #testimonials_style_2 .review_content .review_rating i {
     margin: 4px 0;
-    color: #ffb600;
+    color: #000000;
 }
 
 #testimonials_style_2 .review_item p {
@@ -2960,8 +2960,8 @@ section .main_title {
 }
 
 .contact-items .contact-item {
-    background: #ffb600;
-    border: 1px solid #efac14;
+    background: #000000;
+    border: 1px solid #000000;
     padding: 5px;
     color: #fff;
     margin-bottom: 8px;
@@ -3501,7 +3501,7 @@ footer .widget a {
 }
 
 footer .widget a:hover {
-    color: #1dc1f8;
+    color: #000000;
 }
 
 footer .about p {
@@ -3556,7 +3556,7 @@ footer .useful_links li a:before {
 }
 
 footer .useful_links li a:hover:before {
-    color: #1dc1f8;
+    color: #000000;
 }
 
 footer .address_details li {
@@ -3630,12 +3630,12 @@ footer.dark .subfooter .social_media a {
     height: 70px;
     margin-top: 10px;
     border-radius: 4px;
-    background: rgba(255,182,0,0.3);
+    background: rgba(0,0,0,0.3);
 }
 
 .page_title .price .inner {
     margin: -5px;
-    background-color: #ffb600;
+    background-color: #000000;
     width: 70px;
     height: 70px;
     border-radius: 4px;
@@ -3677,7 +3677,7 @@ footer.dark .subfooter .social_media a {
 .page_title .breadcrumb li:last-child {
     padding: 5px 5px;
     border-radius: 2px;
-    color: #ffb600;
+    color: #000000;
 }
 
 .page_title .breadcrumb li:last-child:after {
@@ -3706,7 +3706,7 @@ footer.dark .subfooter .social_media a {
 }
 
 .sidebar .widget h4:before {
-    background: #1DC1F8;
+    background: #000000;
     width: 18px;
     height: 18px;
     border-radius: 2px;
@@ -3744,7 +3744,7 @@ footer.dark .subfooter .social_media a {
 .sidebar .widget .search button {
     background: none;
     border: none;
-    color: #ffb600;
+    color: #000000;
     float: left;
     right: 0;
     font-size: 14px;
@@ -3756,7 +3756,7 @@ footer.dark .subfooter .social_media a {
 }
 
 .sidebar .widget .search button:after {
-    background: #ffb600;
+    background: #000000;
     content: "";
     height: 50%;
     left: 0;
@@ -3782,7 +3782,7 @@ footer.dark .subfooter .social_media a {
 
 .sidebar .widget .categories li a:hover,
 .sidebar .widget .archive li a:hover {
-    color: #1dc1f8;
+    color: #000000;
 }
 
 .sidebar .widget .categories li .num_posts,
@@ -3799,7 +3799,7 @@ footer.dark .subfooter .social_media a {
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    background: #ffb600;
+    background: #000000;
     border-radius: 10px;
     margin-top: 5px;
     -webkit-transition: all .3s ease;
@@ -3808,7 +3808,7 @@ footer.dark .subfooter .social_media a {
 
 .sidebar .widget .categories a:hover .num_posts,
 .sidebar .widget .archive a:hover .num_posts {
-    background: #1dc1f8;
+    background: #000000;
 }
 
 .sidebar .widget .latest_posts .latest_post {
@@ -3834,7 +3834,7 @@ footer.dark .subfooter .social_media a {
 }
 
 .sidebar .widget .latest_posts .latest_post .details h6 a:hover {
-    color: #1dc1f8;
+    color: #000000;
 }
 
 .sidebar .widget .latest_posts .latest_post .details span {
@@ -3867,7 +3867,7 @@ footer.dark .subfooter .social_media a {
 }
 
 .sidebar .widget .tagcloud .num {
-    background: #ffb600;
+    background: #000000;
     display: inline-block;
     font-size: .8em;
     padding: 6px 10px;
@@ -3919,7 +3919,7 @@ footer.dark .subfooter .social_media a {
     font-size: 150px;
     text-align: center;
     font-weight: 600;
-    color: #1dc1f8;
+    color: #000000;
     line-height: 1.5;
 }
 
@@ -3997,7 +3997,7 @@ footer.dark .subfooter .social_media a {
 }
 
 .blog .blog_list .details h2 a:hover {
-    color: #1dc1f8;
+    color: #000000;
 }
 
 .blog .blog_list .details .info {
@@ -4045,7 +4045,7 @@ footer.dark .subfooter .social_media a {
 }
 
 .blog_post .details h2 a:hover {
-    color: #1dc1f8;
+    color: #000000;
 }
 
 .blog_post .details .info {
@@ -4093,7 +4093,7 @@ footer.dark .subfooter .social_media a {
 }
 
 .blog_post .details .tags a {
-    background: #ffb600;
+    background: #000000;
     color: #FFF;
     display: inline-block;
     font-size: 12px;
@@ -4105,7 +4105,7 @@ footer.dark .subfooter .social_media a {
 }
 
 .blog_post .details .tags a:hover {
-    background: #1dc1f8;
+    background: #000000;
 }
 
 .blog_post .details .meta_post .tags span i {
@@ -4201,7 +4201,7 @@ footer.dark .subfooter .social_media a {
 }
 
 #hero_coming_soon #countdown .count_box .inner {
-    background: #ffb600;
+    background: #000000;
     width: 80px;
     height: 80px;
     border-radius: 4px;
@@ -4263,7 +4263,7 @@ footer.dark .subfooter .social_media a {
 }
 
 .countup_box .inner {
-    background: #ffb600;
+    background: #000000;
     width: 100%;
     height: 100%;
     border-radius: 4px;
@@ -4347,7 +4347,7 @@ footer.dark .subfooter .social_media a {
 #contact_page_style_2 .contact-info li span {
     display: block;
     font-size: 1em;
-    color: #ffb600;
+    color: #000000;
     font-weight: 900;
     margin-bottom: 10px;
 }
@@ -4703,7 +4703,7 @@ footer.dark .subfooter .social_media a {
 }
 
 .menu_item .title span.price {
-    color: #ffb600;
+    color: #000000;
 }
 
 .menu_item .title span.price:before {
@@ -4753,7 +4753,7 @@ footer.dark .subfooter .social_media a {
 
 .room_list_slider .owl-nav .owl-prev,
 .room_list_slider .owl-nav .owl-next {
-    background: #1dc1f8;
+    background: #000000;
     color: #fff;
     margin: 0;
     padding: 10px;
@@ -4804,18 +4804,18 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 }
 
 .room_list .room_details .room_services i {
-    background: #ffb600;
+    background: #000000;
     padding: 5px 14px;
     font-size: 1.2em;
     color: #fff;
     margin: 5px;
-    border: 1px solid #efac14;
+    border: 1px solid #000000;
     border-radius: 2px;
     cursor: pointer;
 }
 
 .room_list .room_details .room_services i:hover {
-    background: #efac14;
+    background: #000000;
 }
 
 .room_list .room_price {
@@ -4866,18 +4866,18 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 }
 
 #rooms_grid .room_grid_item .room_info .room_services i {
-    background: #ffb600;
+    background: #000000;
     padding: 5px 14px;
     font-size: 1.2em;
     color: #fff;
     margin: 5px;
-    border: 1px solid #efac14;
+    border: 1px solid #000000;
     border-radius: 2px;
     cursor: pointer;
 }
 
 #rooms_grid .room_grid_item .room_info .room_services i:hover {
-    background: #efac14;
+    background: #000000;
 }
 
 #rooms_grid .room_grid_item .room_info h3 {
@@ -4945,12 +4945,12 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 }
 
 #rooms_block_view .room_block_item .room_info .room_services i {
-    background: #ffb600;
+    background: #000000;
     padding: 5px 10px;
     font-size: 1em;
     color: #fff;
     margin-right: 10px;
-    border: 1px solid #efac14;
+    border: 1px solid #000000;
     border-radius: 2px;
     cursor: pointer;
     
@@ -5060,11 +5060,11 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 }
 
 .similar_rooms article figcaption h4 a:hover {
-    color: #1dc1f8;
+    color: #000000;
 }
 
 .similar_rooms article .price {
-    background: #ffb600;
+    background: #000000;
     width: 50px;
     height: 50px;
     border-radius: 4px;
