@@ -1941,13 +1941,13 @@ header.transparent.nav_bg {
 
 header .navbar-header .navbar-brand {
     padding: 15px 0;
-    margin-top: 15px;
+    margin-top: 6px;
     -webkit-transition: all .3s;
     transition: all .3s;
 }
 
 header.scroll .navbar-header .navbar-brand {
-    padding: 20px 0;
+    padding: 12px 0;
     margin-top: 0px;
 }
 
@@ -5195,16 +5195,15 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 	transform: scale(1.04);
 }
 
-/*-------------Gird style----------*/
+/*------------- Gallery----------*/
 
 .gird-container{
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-	 /*1fr Columnas que puedes colocar */
-	 grid-auto-rows: minmax(250px, auto);
-	 gap:15px; /*Separación automática*/
-	 padding: 10px;
-	 grid-auto-flow: dense; /*Para que no hayan espacios en blanco glaeria*/
+ 	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	grid-auto-rows: minmax(250px, auto);
+	gap:40px;
+	padding: 0;
+	grid-auto-flow: dense;
 }
 
 .text{
@@ -5229,6 +5228,11 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 }
 
 /* --- */
+@media(min-width: 1300px){
+    .gallery-style {
+        padding: 80px 150px;
+    }
+}
 
 .hood{
     padding: 15px;
@@ -5289,4 +5293,16 @@ figure:hover .room_list_slider .owl-nav .owl-next {
     padding: 30px 0;
     line-height: 2;
     
+}
+.suit-text{
+    padding: 20px;
+}
+
+.no-margin-section{
+    margin: -80px 0 0 0;
+    padding: 0;
+}
+.widget-logo a{
+    display: flex;
+    justify-content: center;
 }
