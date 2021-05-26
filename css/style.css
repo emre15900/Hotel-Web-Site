@@ -2028,13 +2028,13 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 
 #main_menu .navbar-nav li a {
     color: #a1b1c1;
-    font-size: .97em;
-    font-weight: 900;
+    font-size: 1em;
+    font-weight: 700;
     letter-spacing: .05em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     padding: 30px 12px;
     -webkit-transition: all 0.3s;
-    transition: all 0.3s; 
+    transition: all 0.3s;
 }
 
 #main_menu .navbar-nav li.active a {
