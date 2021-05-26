@@ -5315,7 +5315,7 @@ figure:hover .room_list_slider .owl-nav .owl-next {
     margin: -80px 0 0 0;
     padding: 0;
 }
-.widget-logo a{
+.widget-logo .footer-logosu{
     display: flex;
     justify-content: center;
 }
