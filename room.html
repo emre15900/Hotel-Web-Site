@@ -51,7 +51,7 @@
          
 
         <!-- ========== HEADER ========== -->
-        <header class="fixed">
+        <header class="fixed transparent">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle mobile_menu_btn" data-toggle="collapse" data-target=".mobile_menu" aria-expanded="false">
@@ -59,7 +59,10 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand light" href="index.html">
+                        <img src="images/akana-logo.png" height="120" alt="Logo">
+                    </a>
+                    <a class="navbar-brand dark nodisplay" href="index.html">
                         <img src="images/logo.png" height="32" alt="Logo">
                     </a>
                 </div>
@@ -77,9 +80,9 @@
                         <li class="dropdown simple_menu ">
                             <a href="gallery.html" class="dropdown" data-toggle="dropdown">Galeri </a>
                         </li>
-                        <li class="dropdown simple_menu active"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">Konaklama <b class="caret"></b></a>
+                        <li class="dropdown simple_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">Konaklama <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="accomodation.html ">Odalar ve Süitler</a></li>
+                                <li><a href="accomodation.html">Odalar ve Süitler</a></li>
                                 <li><a href="services.html">Hizmetler</a></li>
                             </ul>
                         </li>
@@ -87,38 +90,44 @@
                         </li>
                         <li><a href="beach-pool.html"> Plaj</a></li>
                         <li><a href="events.html">Etkinlik</a></li>
-                        <li><a href="wellness.html">Spa ve Sağlıklı Yaşam</a></li>
+                        <li class="active"><a href="wellness.html">Spa ve Sağlıklı Yaşam</a></li>
                         <li class="menu_button">
-                            <a href="booking-form.html" class="button  btn_blue"><i class="fa fa-calendar"></i>Rezervasyon</a>
+                            <a href="booking-form.html" class="button  btn_gold"><i class="fa fa-calendar"></i>Rezervasyon</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
-
-        <!-- =========== PAGE TITLE ========== -->
-        <div class="page_title gradient_overlay" style="background: url(images/page_title_bg.jpg);">
-            <div class="container">
-                <div class="inner">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <h1>Single Room</h1>
-                            <ol class="breadcrumb">
-                                <li><a href="index.html">Home</a></li>
-                                <li>Rooms</li>
-                                <li>Single Room</li>
-                            </ol>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="price">
-                                <div class="inner">
-                                    €90 <span>per night</span>
-                                </div>
-                            </div>
-                        </div>
+     
+        <!-- ========== REVOLUTION SLIDER ========== -->
+        <div id="hero_spa" class="rev_slider gradient_slider" data-version="5.0.7">
+            <ul>
+                <!-- SLIDE  -->
+                <li data-transition="fade">
+                    <!-- MAIN IMAGE -->
+                    <img src="images/spa/spa_hero.jpg" 
+                         alt="Image" 
+                         data-bgposition="center center" 
+                         data-bgfit="cover" 
+                         data-bgrepeat="no-repeat" 
+                         data-bgparallax="5" 
+                         class="rev-slidebg" 
+                         data-no-retina>
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption" 
+                         data-x="['center','center','center','center']" 
+                         data-hoffset="" 
+                         data-y="['250','250','300','250']" 
+                         data-voffset=""
+                         data-responsive_offset="on" 
+                         data-fontsize="['40','32','28','22']" 
+                         data-lineheight="['40','32','28','22']"
+                         data-whitespace="nowrap" 
+                         data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                         style="color: #fff; font-weight: 700; font-family: 'Raleway', sans-serif;">WELCOME TO YOUR RELAXATION PARADISE
                     </div>
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
 
         <!-- =========== MAIN ========== -->
@@ -385,6 +394,19 @@
     <script type="text/javascript" src="js/countUp.min.js"></script>
     <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+
+        <!-- ========== REVOLUTION SLIDER ========== -->
+        <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
 
 </body>
 </html>
