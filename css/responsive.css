@@ -110,9 +110,10 @@
      header .navbar-header .navbar-brand {
          padding: 10px 0;
      }
+     /* E.S.
      header .navbar-header .navbar-brand img {
          max-height: 24px;
-     }
+     } */
      header .navbar-header .mobile-menu-btn {
          padding-top: 18px !important;
      }
@@ -398,6 +399,9 @@
      header.transparent {
          top: 10px; 
      }
+     header .navbar-header .navbar-brand {
+        padding: 35px 0 !important;
+    }
      #features .owl-thumb-item.active:before {
          display: none;
      }
