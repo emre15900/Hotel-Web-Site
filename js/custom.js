@@ -204,6 +204,6 @@ const carouselSlider = element => {
   };
   
   carouselSlider({
-    keyboard: "true", // active arrows key
-    delay: 5000 // 1000ms is default
+    keyboard: "true", 
+    delay: 5000 
   });

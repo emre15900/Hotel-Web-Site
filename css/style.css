@@ -5253,8 +5253,13 @@ figure:hover .room_list_slider .owl-nav .owl-next {
         height: 600px;
         text-align: center;
     }
-}
 
+}
+@media(max-width: 992px){
+    .fk-hood{
+        display: none;
+    }
+}
 .scroll #main_menu .navbar-nav .menu_button .button{
     color: #5F695F !important;
 }
