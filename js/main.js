@@ -697,6 +697,73 @@
             return "stayStill";
         }
 
+        /* */
+        var $sync1 = $("#slider-larg-2"),
+        $sync2 = $("#thumbs-2"),
+        duration = 300;
+
+    $sync1.owlCarousel({
+            items: 1,
+            dots: false,
+        })
+        .on('changed.owl.carousel', function (e) {
+            var syncedPosition = syncPosition(e.item.index);
+
+            if (syncedPosition != "stayStill") {
+                $sync2.trigger('to.owl.carousel', [syncedPosition, duration, true]);
+            }
+        });
+
+    $sync2
+        .on('initialized.owl.carousel', function () {
+            addClassCurrent(0);
+        })
+        .owlCarousel({
+            dots: false,
+            responsive: {
+                0: {
+                    items: 4
+                },
+                600: {
+                    items: 4
+                },
+                960: {
+                    items: 5
+                },
+                1200: {
+                    items: 6
+                }
+            }
+        })
+        .on('click', '.owl-item', function () {
+            $sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
+        });
+
+    function addClassCurrent(index) {
+        $sync2
+            .find(".owl-item")
+            .removeClass("active-item")
+            .eq(index).addClass("active-item");
+    }
+    function syncPosition(index) {
+        addClassCurrent(index);
+        var itemsNo = $sync2.find(".owl-item").length; //total items
+        var visibleItemsNo = $sync2.find(".owl-item.active").length; //visible items
+
+        if (itemsNo === visibleItemsNo) {
+            return "stayStill";
+        }
+        var visibleCurrentIndex = $sync2.find(".owl-item.active").index($sync2.find(".owl-item.active-item"));
+
+        if (visibleCurrentIndex == 0 && index != 0) {
+            return index - 1;
+        }
+        if (visibleCurrentIndex == (visibleItemsNo - 1) && index != (itemsNo - 1)) {
+            return index - visibleItemsNo + 2;
+        }
+        return "stayStill";
+    }
+
         /*========== ROOMS LIST - OWL CAROUSEL ==========*/
         var owl = $('.room_list_slider');
         owl.owlCarousel({
