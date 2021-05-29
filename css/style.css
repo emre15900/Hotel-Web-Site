@@ -2210,7 +2210,7 @@ header #main_menu .navbar-nav .dropdown .dropdown-menu {
 /* ---------- 5.1 Global Sections ---------- */
 section {
     padding-top: 60px;
-    padding-bottom: 80px;
+    padding-bottom: 1px;
     overflow: hidden !important;
     max-width: 100%;
 }
@@ -2454,10 +2454,13 @@ section .main_title {
 }
 
 #features .owl-thumb-item.active {
-    background: #333;
+    background: #5F695F;
     color: #fff;
     -webkit-transition: all 0.1s ease-out;
     transition: all 0.1s ease-out;
+}
+#features .owl-thumb-item.active i::before{
+    color: #fff;
 }
 
 #features .owl-thumb-item.active:before {
@@ -2467,7 +2470,7 @@ section .main_title {
     margin-left: -14px;
     margin-top: 22px;
     font-size: 25px;
-    color: #333;
+    color: #5F695F;
 }
 
 #features .owl-thumb-item:hover {
@@ -2508,7 +2511,7 @@ section .main_title {
 }
 
 #features .owl-thumb-item .media-left {
-    color: #5F695F;
+    color: #acbac4;
     font-size: 2em;
     line-height: 2em;
     text-align: center;
