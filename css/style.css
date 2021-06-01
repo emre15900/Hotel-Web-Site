@@ -2357,7 +2357,7 @@ section .main_title {
 .gradient_overlay {
     position: relative;
 }
-
+/*
 .gradient_slider .slotholder:after,
 .gradient_overlay:after {
     width: 100%;
@@ -2374,7 +2374,7 @@ section .main_title {
     background: linear-gradient(135deg, rgba(147, 0, 17, .5) 0, rgba(86, 20, 147, .5) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#930011', endColorstr='#561493', GradientType=1);
 }
-
+*/
 .gradient_overlay.opac8:after{
     background: rgba(147, 0, 17, .8);
     background: -webkit-gradient(left top, right bottom, color-stop(0, rgba(64, 97, 237, 0.8)), color-stop(100%, rgba(86, 20, 147, .5)));
