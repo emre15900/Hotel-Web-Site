@@ -1,0 +1,48 @@
+
+      .social-media svg {
+        margin: 0 5px;
+        width: 20px;
+        height: 20px;
+        max-width: 12px;
+      }
+      a {
+        color: #6d6e71;
+        text-decoration: none;
+      }
+      .tel {
+        color: #6d6e71;
+      }
+      .akana {
+        margin-left: 10px;
+        color: #6d6e71;
+        font-weight: 500;
+        font-size: 14px;
+      }
+      .include {
+        padding: 20px;
+      }
+      #Layer_1 {
+        width: 200px;
+      }
+      @media screen and (max-width: 768px) {
+        .email img {
+          margin-left: -13px;
+        }
+      }
+      .container {
+        padding: 70px 0;
+        border: 0;
+        color: #000;
+        border-bottom: 1px solid #adadad;
+      }
+
+      .mail-signature {
+        color: #6d6e71;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+      }
+      .hooder {
+        padding: 50px 0;
+      }
